@@ -7,7 +7,7 @@ import AddProductForm from './AddProductForm';
 
 
 
-const app = () => {
+const App = () => {
     const [products, setProducts] = useState([
         { id: 1, name: 'Mac Book', price: 999.99, description: 'High-performance laptop for work and entertainment.' },
         { id: 2, name: 'Apple Watch', price: 599.99, description: 'Latest model with advanced features.' },
