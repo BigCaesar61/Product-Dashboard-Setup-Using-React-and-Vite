@@ -1,5 +1,7 @@
 //Task 4: Create the ProductItem Component
 
+import React from "react";
+
 
 const ProductItem = ({ product}) => {
 
