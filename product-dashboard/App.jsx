@@ -1,0 +1,1 @@
+//Task 1&2: Set Up the React Environment with Vite & Create the App Component
