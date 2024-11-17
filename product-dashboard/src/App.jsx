@@ -12,6 +12,12 @@ const App = () => {
     { id: 3, name: 'AirPods', price: 199.99, description: 'New-Gen ear buds for Apple Users.' },
   ]);
 
+  //Task 7: Pass Data Between Components
+
+  const addProduct = (newProduct) => {
+    setProducts((prevProducts) => [...prevProducts, newProduct]);
+  };
+
   return (
     <div>
       <h1>Product List</h1>
