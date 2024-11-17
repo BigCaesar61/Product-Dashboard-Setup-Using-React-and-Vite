@@ -1,3 +1,5 @@
+//Task 6: Create the AddProductForm Component
+
 import React, {useState} from "react";
 
 function AddProductForm() {
