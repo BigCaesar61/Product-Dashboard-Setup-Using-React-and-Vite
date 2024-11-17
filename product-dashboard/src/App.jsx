@@ -5,7 +5,7 @@ import ProductList from './ProductList';
 import AddProductForm from './AddProductForm';
 
 const App = () => {
-  // Default list of products
+  //products list
   const [products, setProducts] = useState([
     { id: 1, name: 'MacBook', price: 1200.000, description: 'High-performance laptop for work and entertainment.' },
     { id: 2, name: 'iPhone', price: 899.99, description: 'Latest model with advanced features and state of the art camera.' },
